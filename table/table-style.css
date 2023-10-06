@@ -1,0 +1,17 @@
+@charset "utf-8";
+img{
+    width: 50%;
+    width:200px;
+    width: 200px;
+
+}
+head{
+    text-align: center;
+}
+table, th, td{
+    border:solid 4px black;
+    border-collapse: collapse;
+}
+thead{
+    background-color:blueviolet;
+}
