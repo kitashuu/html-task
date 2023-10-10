@@ -1,0 +1,16 @@
+@charset "utf-8";
+li{
+    color:hotpink;
+}
+#bg-yellow{
+    background-color: yellow;
+}
+.bg-orange{
+    background-color: orange;
+}
+h1{
+    color: springgreen;
+}
+span{
+    border: 2px dotted aqua;
+}
