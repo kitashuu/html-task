@@ -1,0 +1,10 @@
+@charset "utf-8";
+input[type]{
+    margin-right:0.5rem;
+}
+a{
+    font-size: 0.7rem;
+}
+fieldset{
+    margin-bottom:1rem;
+}

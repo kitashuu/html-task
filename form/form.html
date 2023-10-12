@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel = "stylesheet" href = "form-style.css"></link>
+    <title>入力フォーム</title>
+
+</head>
+<body>
+    <fieldset>
+    <h1>会員登録</h1>
+    <p>以下の情報を入力して下さい</p>
+    <legend>お客様情報</legend>
+    姓　　　　　　　:<input type = "text" name = "last_name"><br>
+    名　　　　　　　:<input type = "text" name = "first_email"><br>
+    メールアドレス　:<input type="text" name ="address"><br>
+    電話番号　　　　:<input type = "email" name = "email"><br>
+    生年月日　　　　:<input type = "birthday" name = "birthday" value = "1990-01-01"><br>
+    年齢　　　　　　:<input type = "number" name = "age" min = "0" max = "150">歳<br>
+    性別　　　　　　:   <label><input  type ="radio" name = "gender" value= "0">男</label>
+             <label><input  type ="radio" name = "gender" value="1">女</label>
+             <label><input  type ="radio" name = "gender" value="2">その他</label><br>
+            </fieldset> 
+            <fieldset>
+        <legend>パスワード</legend>
+        英文字を含む９文字以上で作成してください
+        <input type="password" name ="password"><br>
+        確認のためもう一度入力してください：<input type ="password" name ="password_confirm"><br>
+        </fieldset>
+        <fieldset>
+            <legend>希望メールマガジン</legend>
+            <label><input type="checkbox" name="magazine" value="1">IT</label>
+            <label><input type="checkbox" name="magazine" value="2">営業</label>
+            <label><input type="checkbox" name="magazine" value="3">接客</label>
+            <label><input type="checkbox" name="magazine" value="4">医療</label><br>
+        </fieldset>    
+        <fieldset>
+            <legend>利用規約</legend>
+            <a href="terms.html">利用規約を確認する</a><br>
+            <input type = "checkbox" name = "terms" value = "agree">規約に同意する
+        </fieldset>
+
+         <!--サーバにデータを送信するためのボタン -->
+         <button type ="reset">クリア</button>
+         <!-- フォームの入力をリセットするボタン-->
+         <button type = "submit">確認</button>
+
+   
+    
+</body>
+</html>
