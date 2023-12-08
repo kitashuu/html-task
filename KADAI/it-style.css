@@ -1,0 +1,43 @@
+@charset "usf-8";
+table,th,td{
+    border: solid 1px white;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;   
+    font-weight: bold;
+}
+.example{
+    overflow: hidden;
+}
+.example table{
+    padding-left: 12px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 10px;
+}
+tr:nth-child(odd){
+    background-color:whitesmoke;
+}
+tr{
+    background-color: gainsboro;
+}
+th{
+    background-color: chartreuse;
+    text-align: left;
+    width: 5%;
+}
+.style1{
+    width: 10%;
+}
+h1{
+    font-size: 27px;
+    font-weight: bold;
+}
+p{
+font-size: 20px;
+}
+article{
+    background-color: beige;
+}
+

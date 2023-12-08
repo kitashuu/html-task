@@ -1,0 +1,67 @@
+@charset "usf-8";
+h1{
+    text-align: center;
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    
+}
+.footer img{
+    height: auto;
+    display: block;
+    width: 30%;
+    padding: 40%;
+    height: 20%;
+}
+body{
+  background-color: floralwhite;
+}
+aside{
+    background-color: aqua;
+    padding: 0.5rem;
+    width: 35%;
+    margin-bottom: auto;
+    background-image: url(img/Polka-dot-pattern-21.png);
+}
+.container{
+    display: flex;
+    list-style: "♦";
+    background-color:floralwhite ;
+    font-weight: bold;
+    font-size: 100%;
+     background-image: url(img/sky02-1024x683.png); 
+    }
+main{
+    width: 80%;
+}
+.container li{
+    font-size: 150%;
+}
+h1{
+    font-family: 'Aoboshi One', serif;
+font-family: 'Darumadrop One', sans-serif;
+font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Yuji Syuku', serif;
+}
+.catch {
+    display: flex;
+    align-items: center; /* 垂直中心 */
+    justify-content: center; /* 水平中心 */
+  }
+  .catch:before, .catch:after {
+    border-top: 1px solid;
+    content: "";
+    width: 3em; /* 線の長さ */
+  }
+  .catch:before {
+    margin-right: 1em; /* 文字の右隣 */
+  }
+  .catch:after {
+    margin-left: 1em; /* 文字の左隣 */
+  }
+
+
+
