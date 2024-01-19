@@ -1,0 +1,121 @@
+@charset "usf-8";
+.titlea{
+    display: flex;
+}
+
+.titleb{
+    display: flex;
+}
+
+.head{
+    background-image: url(img/ヘッダー背景.jpg);
+    width: 1280px;
+    height: 250px;
+}
+
+.titleimg{
+    width: 109px;
+    height: 100px;
+    padding: 8px;
+}
+
+.kanko{
+    width: 320px;
+    height: 80px;
+    font-size: 64px;
+    padding: 8px;
+}
+
+.writer{
+    width: 450px;
+    height: 80px;
+    left: 810px;
+    top: 20px;
+    background-color: #adff00;
+    position: absolute;
+
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.kankoti{
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    width: 280px;
+    height: 80px;
+    background-color: #adff00;
+
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.men{
+    position: absolute;
+    left: 380px;
+    top: 150px;
+    width: 280px;
+    height: 80px;
+    background-color: #adff00;
+
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.cyomei{
+    position: absolute;
+    left: 680px;
+    top: 150px;
+    width: 280px;
+    height: 80px;
+    background-color: #adff00;
+
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.movie{
+    position: absolute;
+    left: 980px;
+    top: 150px;
+    width: 280px;
+    height: 80px;
+    background-color: #adff00;
+
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+body{
+    background-image: url(img/background137.webp);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    margin-bottom: 400px;
+    font-size: 30px;
+}
+img{
+    margin-left: 100px;
+    width: 450px;
+    height: 450px;
+    margin-right: 100px;
+}
+.syuu{
+    margin-bottom: 100px;
+    font-size: 25px;
+    width: 250px;
+}
+table tr td{
+    color: blue;
+}
+body{
+    font-family:Noto  Serif JP
+}
