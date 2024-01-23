@@ -90,9 +90,7 @@
     line-height: 80px;
     text-align: center;
 }
-body{
-    font-family: Noto Serif JP;
-}
+
 td{
     /*width: 300%;*/
 }
@@ -102,6 +100,7 @@ td{
 }
 p{
     width: 290px;
+    font-family: Noto serif JP;
 }
 .setumei{
     margin: auto;
