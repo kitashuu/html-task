@@ -1,0 +1,375 @@
+@charset "utf-8";
+
+body {
+   font-family: 'Sawarabi Mincho', serif; 
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+  background-color: #ffffff;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+  /*border-bottom: 2px solid #ffffff;*/
+  display: flex;
+  border-width: thin;
+}
+
+.logo {
+ /* margin-top: 50px;*/
+ margin-bottom: 20px;
+ width: 210px;
+ margin-top: 14px;
+ margin-left: 76px;
+
+}
+
+.global-nav {
+  display: flex;
+  margin-top: 60px;
+   margin-left: 200px;
+}
+
+.global-nav li {
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  /* font-family: 'Bitter', serif; */
+  color: #333333;
+ 
+}
+
+.global-nav li a {
+  color: #0ca2ed;
+  font-weight: bold;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid #788d98;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+#wrap {
+  clear: both;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top:2px solid #3583aa;
+  margin-top: 20px;
+}
+
+footer small {
+  font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #000;
+    background-color: #ffffff;
+}
+h1{
+  text-align: center;
+  padding-bottom: 30px;
+}
+iframe{
+  padding: auto;
+  margin: 0 auto;
+ /*width: 300px;*/
+ display: block;
+}
+.contant{
+  border: 2px solid #000;
+  margin: auto;
+}
+.content h1{
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.wrap{
+  border: 2px solid #000;
+  width: 300px;
+  height: 100px;
+  padding: auto;
+}
+.profile img{
+  width: 290px;
+  /*height: 370px;*/
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+/* 見出し 大きくする、Google Fontsを使用 大文字 */
+.page-title {
+  font-size: 10cqb;
+  font-family: "Philosopher", serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #ffffff;
+}
+a.btn-gradient {
+  color: #000;
+  border:1px solid #0ca2ed ;
+  border-radius: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+a.btn-gradient:hover {
+  -webkit-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+  color: #fff;
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+}
+
+#home {
+  /* 背景画像の指定 */
+  background-image: url(img/lesserafim-twitter-1-1.webp);
+  background-repeat: no-repeat;
+ /*background-position: center;*/
+background-attachment: fixed;
+background-size: cover;
+height: 110vh;
+/* opacity: 0.8 */
+}
+#home .page-title {
+  text-transform: none;
+}
+.global-nav2 {
+  display: flex;
+  margin-top: 60px;
+   margin-left: 200px;
+   border-radius: 2px solid #bbb;
+   border-bottom: 1px solid #000;
+   padding-left: 60px;
+}
+.global-nav2 li {
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+   font-family: 'Bitter', serif; 
+  color: #333333;
+}
+.global-nav2 li a {
+  color: #0ca2ed;
+  font-weight: bold;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.global-nav2 li a:hover {
+  border-bottom: 2px solid #788d98;
+  padding-bottom: 3px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.font-acsent{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.profile ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  /*list-style: none;*/
+}
+.profile img{
+  padding: 30px 40px;
+}
+.profile  li{
+  list-style-type: none;
+  margin: auto;
+}
+@media screen and (min-width: 768px){
+#profile.profile li{
+width: 45%;
+float: left;
+}
+}
+#profile .profile li{
+margin-bottom: 65px;
+}
+dl{
+  float: left;
+  display: flex;
+  margin: auto;
+  padding-left: 40px;
+}
+dd{
+  display: flex;
+  padding: auto;
+}
+.profile .di{
+  display: block;
+  margin: auto;
+  padding: auto;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.name{
+  margin:auto;
+}
+ h2{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ h3{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h5{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h6{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MK{
+  padding-top: 40px;
+}
+.global-nav3 {
+  display: flex;
+  margin-top: 60px;
+   margin-left: 200px;
+   border-bottom: 1px solid #333333;
+}
+
+.global-nav3 li {
+  margin: 0 20px;
+  font-size: 30px;
+  list-style: none;
+  /* font-family: 'Bitter', serif; */
+  color: #333333;
+ 
+}
+.global-nav3 li a {
+  color: #0ca2ed;
+  font-weight: bold;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.global-nav3 li a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.wed{
+  margin-top: 20px;
+}
+.name4{
+  margin-right: 60px;
+}
+
+dd .iu{
+  object-fit: cover;
+}
+.sns-btn{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 320px;
+}
+.sns-btn li {
+  width: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  list-style-type: none;
+  }
+  .sns-btn li img{
+    height: 40px;
+    width: 40px;
+  }
+  .content h2{
+    background-color: #bbb;
+    border-left: 5px solid #000;
+  }
+  .button a {
+    background: pink;
+    color: #000;
+    border: solid rosybrown 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px auto;
+  }
+  .button a:hover{
+    background: #eb7c7c;
+  }
+  #KPOP{
+background-image: url(img/rectangle_large_type_2_43743dff8cc88811f760b0c5c051e533.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+  }
+  .logo img{
+    height: 70px;
+    width: 170px;
+  }
+  #about{
+    background-image: url(img/../MB/img/IMG_7229.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+  }
+  .profile{
+    background-color: #ffffff;
+    padding: 35px 0;
+    margin-top: 220px;
+  }
